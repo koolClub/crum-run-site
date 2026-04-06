@@ -1,99 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Crum Run</title>
-
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Crum Run is a fast-paced arcade maze game for Windows with solo runs, local co-op, PvP, deep customization, and a free demo on itch.io." />
+  <title>Crum Run — Official Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
-
 <body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Crum Run home">
+        <span class="brand-mark">CR</span>
+        <span class="brand-text">Crum Run</span>
+      </a>
 
-<header class="header">
+      <nav class="nav" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#modes">Modes</a>
+        <a href="#manual">Manual</a>
+        <a href="#videos">Videos</a>
+        <a href="#buy">Get It</a>
+      </nav>
+    </header>
 
-<div class="container">
+    <main id="top">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Out now on Windows</p>
+          <h1>Fast arcade maze action built for solo runs, couch co-op, and PvP.</h1>
+          <p class="hero-text">
+            Crum Run is a fast-paced arcade maze game focused on movement, routing,
+            survival, and replayability. Push through procedural floors, build cleaner runs,
+            unlock more customization, and switch between solo, local co-op, and local PvP.
+          </p>
 
-<h1 class="title">CRUM RUN</h1>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://koolclub.itch.io/crum-run" target="_blank" rel="noreferrer">Buy Full Game</a>
+            <a class="button button-secondary" href="https://koolclub.itch.io/crum-run" target="_blank" rel="noreferrer">Get Free Demo</a>
+            <a class="button button-ghost" href="https://www.youtube.com/@Crum_Run" target="_blank" rel="noreferrer">Watch on YouTube</a>
+          </div>
 
-<p class="subtitle">Fast arcade action — in development</p>
+          <div class="hero-meta" role="list" aria-label="Game details">
+            <div class="meta-item" role="listitem">
+              <span class="meta-label">Players</span>
+              <strong>1–2 local</strong>
+            </div>
+            <div class="meta-item" role="listitem">
+              <span class="meta-label">Inputs</span>
+              <strong>Keyboard, mouse, gamepad</strong>
+            </div>
+            <div class="meta-item" role="listitem">
+              <span class="meta-label">Price</span>
+              <strong>$4.99+ full game</strong>
+            </div>
+            <div class="meta-item" role="listitem">
+              <span class="meta-label">Demo</span>
+              <strong>Available now</strong>
+            </div>
+          </div>
+        </div>
 
-<a class="button" href="#">Play on Itch (Coming Soon)</a>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <p class="card-kicker">What defines the game</p>
+            <ul class="feature-list">
+              <li>Dash + phase movement at the center of every run</li>
+              <li>Procedural maze layouts with escalating pressure</li>
+              <li>Solo, local co-op, and local PvP in one package</li>
+              <li>Map maker, hats, emoji visuals, and custom sound tools</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-</div>
+      <section id="overview" class="panel section-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Overview</p>
+          <h2>A clearer front door than the store page</h2>
+          <p>
+            The site is set up to explain the game quickly, then route people to the demo,
+            the full version, or gameplay videos. It avoids fake placeholders and keeps the
+            store flow on itch.io where payments and downloads already work.
+          </p>
+        </div>
 
-</header>
+        <div class="cards two-up">
+          <article class="card">
+            <h3>Built around movement</h3>
+            <p>
+              Crum Run is not a slow maze crawler. The core feel comes from fast movement,
+              sharp routing, and chaining decisions under pressure.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Replayable by design</h3>
+            <p>
+              Procedural mazes, rising difficulty, random encounters, and multiple modes push
+              the game toward repeat runs rather than one-and-done sessions.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Local multiplayer included</h3>
+            <p>
+              You can play solo, sit next to a friend in co-op, or run direct PvP without
+              needing an online stack.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Customization matters</h3>
+            <p>
+              Hats, emoji-based visuals, map creation, and custom sound setup make the game
+              feel more personal than a basic score chase.
+            </p>
+          </article>
+        </div>
+      </section>
 
+      <section class="panel">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Key features</p>
+          <h2>What people should understand in under a minute</h2>
+        </div>
 
+        <div class="cards three-up">
+          <article class="card icon-card">
+            <h3>Dash + phase</h3>
+            <p>Two core movement skills shape routing, survival, escapes, and PvP pressure.</p>
+          </article>
+          <article class="card icon-card">
+            <h3>Endless progression</h3>
+            <p>Runs scale up in difficulty as you push to deeper floors and higher scores.</p>
+          </article>
+          <article class="card icon-card">
+            <h3>Local co-op and PvP</h3>
+            <p>One game supports solo, side-by-side co-op, and direct head-to-head matches.</p>
+          </article>
+          <article class="card icon-card">
+            <h3>Map maker</h3>
+            <p>Create and test custom maze maps, then use or share them in the full version.</p>
+          </article>
+          <article class="card icon-card">
+            <h3>Emoji visuals + hats</h3>
+            <p>Customize character presentation with emoji-based visuals and unlockable hats.</p>
+          </article>
+          <article class="card icon-card">
+            <h3>Optimized for quick sessions</h3>
+            <p>Lightweight install, configurable controls, and short setup make it easy to jump in.</p>
+          </article>
+        </div>
+      </section>
 
-<section class="section">
+      <section id="modes" class="panel">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Modes</p>
+          <h2>One game, several ways to play</h2>
+        </div>
 
-<div class="container">
+        <div class="cards two-up">
+          <article class="card mode-card">
+            <h3>Solo</h3>
+            <p>
+              Build the cleanest run you can. Navigate deeper floors, manage pressure, and improve
+              your route execution to push your score further.
+            </p>
+          </article>
+          <article class="card mode-card">
+            <h3>Local co-op</h3>
+            <p>
+              Sit next to a friend and run on the same screen. Co-op keeps the local multiplayer
+              feel front and center instead of treating it like an afterthought.
+            </p>
+          </article>
+          <article class="card mode-card">
+            <h3>Local PvP</h3>
+            <p>
+              Face off directly and react faster than the other player. Dash becomes a threat,
+              round-to-round choices matter, and the generated maps keep matches from feeling static.
+            </p>
+          </article>
+          <article class="card mode-card">
+            <h3>Map maker</h3>
+            <p>
+              Build custom maze layouts, test them, and expand what the game can be beyond the
+              default run structure.
+            </p>
+          </article>
+        </div>
+      </section>
 
-<h2>About</h2>
+      <section id="manual" class="panel manual-panel">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Manual</p>
+          <h2>Core game information without forcing people to dig through the store page</h2>
+        </div>
 
-<p>
-Crum Run is a fast arcade-style game focused on movement, quick runs,
-and replayable sessions. This page is a simple placeholder and will
-be expanded with gameplay details, updates, and media.
-</p>
+        <div class="manual-layout">
+          <details class="manual-item" open>
+            <summary>Objective and run flow</summary>
+            <div>
+              <p>
+                Runs are built around navigating procedural mazes efficiently while surviving rising
+                pressure and pushing to higher floors. The game rewards movement control, cleaner
+                routing, and faster execution as difficulty increases.
+              </p>
+            </div>
+          </details>
 
-</div>
+          <details class="manual-item">
+            <summary>Movement abilities</summary>
+            <div>
+              <p>
+                Dash and phase are the two defining skills. Dash boosts speed and launches the player
+                forward. Phase lets you push through walls. Used well, they create faster lines,
+                safer escapes, and stronger offensive pressure in PvP.
+              </p>
+            </div>
+          </details>
 
-</section>
+          <details class="manual-item">
+            <summary>Powerups and run variety</summary>
+            <div>
+              <p>
+                Powerups add more than passive bonuses. Runs can include effects and weapons such as
+                fire trail, mega shield, rapid blaster, snake cannon, and shotgun, which shifts how
+                floors feel from run to run.
+              </p>
+            </div>
+          </details>
 
+          <details class="manual-item">
+            <summary>Hazards and obstacles</summary>
+            <div>
+              <p>
+                Floors can include goo, hot coals, lava, moving walls, fog of war, and boss encounters.
+                These elements force route changes instead of letting every floor play the same.
+              </p>
+            </div>
+          </details>
 
+          <details class="manual-item">
+            <summary>Controls and support</summary>
+            <div>
+              <p>
+                The current release supports full key remapping, USB gamepads, adjustable display
+                settings, keyboard and mouse input, and local multiplayer for one to two players.
+              </p>
+            </div>
+          </details>
 
-<section class="section alt">
+          <details class="manual-item">
+            <summary>Demo versus full version</summary>
+            <div>
+              <p>
+                The free demo includes the core gameplay, but progression ends at floor 11 and some
+                customization features stay locked. The full version removes those limits and unlocks
+                saving, loading, and sharing for custom maps, sound settings, and emoji sets.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
 
-<div class="container">
+      <section id="videos" class="panel">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Videos</p>
+          <h2>Use the homepage to prove the game is active</h2>
+          <p>
+            The current channel is already publishing gameplay and intro content, so the site should
+            surface that work immediately instead of acting like the game is still a vague placeholder.
+          </p>
+        </div>
 
-<h2>Screenshots</h2>
+        <div class="video-grid">
+          <article class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/bdbl07Prevo?rel=0"
+                title="Welcome To Crum Run"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <h3>Welcome To Crum Run</h3>
+            <p>Use this as the first proof point for new visitors.</p>
+          </article>
 
-<div class="screens">
+          <article class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/wjpb4yXBS38?rel=0"
+                title="Floor 1 solo gameplay"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <h3>Floor 1 solo gameplay</h3>
+            <p>Shows an actual run instead of only a marketing pitch.</p>
+          </article>
+        </div>
+      </section>
 
-<div class="shot">Screenshot 1</div>
-<div class="shot">Screenshot 2</div>
-<div class="shot">Screenshot 3</div>
+      <section class="panel faq-panel">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Quick answers</p>
+          <h2>Reduce friction before people bounce</h2>
+        </div>
 
-</div>
+        <div class="faq-grid">
+          <article class="card">
+            <h3>Where do I buy it?</h3>
+            <p>The full game is sold on itch.io. The site sends buyers there so payment and delivery stay simple.</p>
+          </article>
+          <article class="card">
+            <h3>Is there a free version?</h3>
+            <p>Yes. A free demo is available now on the itch.io page.</p>
+          </article>
+          <article class="card">
+            <h3>What platform is supported?</h3>
+            <p>The current release is for Windows.</p>
+          </article>
+          <article class="card">
+            <h3>Does it support local multiplayer?</h3>
+            <p>Yes. The current listing supports one to two players locally with co-op and PvP modes.</p>
+          </article>
+        </div>
+      </section>
 
-</div>
+      <section id="buy" class="panel cta-panel">
+        <div>
+          <p class="eyebrow">Get Crum Run</p>
+          <h2>Keep the homepage informative. Keep payment and downloads on itch.io.</h2>
+          <p>
+            This setup avoids a fake checkout flow. The homepage sells the game clearly, and the store
+            page handles the actual purchase and demo download.
+          </p>
+        </div>
 
-</section>
+        <div class="cta-actions">
+          <a class="button button-primary" href="https://koolclub.itch.io/crum-run" target="_blank" rel="noreferrer">Buy Full Game</a>
+          <a class="button button-secondary" href="https://koolclub.itch.io/crum-run" target="_blank" rel="noreferrer">Download Demo</a>
+          <a class="button button-ghost" href="https://www.youtube.com/@Crum_Run" target="_blank" rel="noreferrer">Open Channel</a>
+        </div>
+      </section>
+    </main>
 
-
-
-<section class="section">
-
-<div class="container">
-
-<h2>Status</h2>
-
-<p>
-Current build status: <strong>Pre-Alpha</strong>
-</p>
-
-<p>
-Platform: Windows PC
-</p>
-
-</div>
-
-</section>
-
-
-
-<footer class="footer">
-
-<p>© 2026 Crum Run</p>
-
-</footer>
-
-
+    <footer class="footer">
+      <div>
+        <strong>Crum Run</strong>
+        <p>Official links</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://koolclub.github.io/crum-run-site/#" target="_blank" rel="noreferrer">Homepage</a>
+        <a href="https://koolclub.itch.io/crum-run" target="_blank" rel="noreferrer">itch.io</a>
+        <a href="https://www.youtube.com/@Crum_Run" target="_blank" rel="noreferrer">YouTube</a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
